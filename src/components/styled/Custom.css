@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+  flex-basis: 0;
+}
+@media only screen and (max-width: 450px) {
+  .flex-1 {
+    flex: none;
+    display: block;
+  }
+  .reset-flex-m {
+    display: block;
+  }
+}
+
+.relative {
+  position: relative;
+}
+.padding-tb-1 {
+  padding: 1em 0;
+}
